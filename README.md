@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+Full-stack developer, specialist in #Backend and #Frontend, student of Data Science 🛠 Software Engineering at Uniboyaca 🎓| Cat lover 😺
+
+![Github Stats for Carlos Azaustre](https://github-readme-stats.vercel.app/api?username=supermavster&show_icons=true&hide_border=true&title_color=ffb300&icon_color=ffb300&bg_color=dddddd)
+
+- 🌱 I’m currently learning  Data Science on Platzi
+- 📫 How to reach me: https://www.linkedin.com/in/miguel-angel-torres-vargas/
+
 <!--
 **supermavster/supermavster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
