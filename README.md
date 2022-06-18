@@ -39,6 +39,10 @@ Hi, I'm <b>Miguel Ángel</b>, a passionate self-taught FullStack Developer from 
 <img
   src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=supermavster&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
 />
+<br>
+<img
+  src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=supermavster&skills=Vue,C%2B%2B,C%23,SCSS,Svelte&width=820"
+/>
 </div>
 <br>
 <!-- Languages and Tools -->
