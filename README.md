@@ -28,7 +28,7 @@ Hi, I'm <b>Miguel Ángel</b>, a passionate self-taught FullStack Developer from 
 - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"/> Cat man 🐈.
 
 <br>
-<!-- Languages and Tools -->
+<!-- Ranking Global -->
 <div align="center">
 <h2>🪪 Ranking Global 🚀</h2>
 <hr width="80%">
