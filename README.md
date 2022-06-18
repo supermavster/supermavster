@@ -1,11 +1,11 @@
 <!-- Stats -->
-<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> About Me 👨🏼‍🚀</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="30px"> About Me 👨🏼‍🚀</h1>
 <br>
 
 <samp align="center">
   
   ```text
-    If you can think about it, you can program it; since EVERYTHING is possible in this life!
+    If you can think it, you can program it; since EVERYTHING is possible in this life!
   ```
   
 </samp>
@@ -27,6 +27,19 @@ Hi, I'm <b>Miguel Ángel</b>, a passionate self-taught FullStack Developer from 
 - 🔭 I’m currently working on different personal projects.
 - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"/> Cat man 🐈.
 
+<br>
+<!-- Languages and Tools -->
+<div align="center">
+<h2>🪪 Ranking Global 🚀</h2>
+<hr width="80%">
+<hr width="50%">
+</div>
+<br>
+<div align="center">
+<img
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=supermavster&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
+/>
+</div>
 <br>
 <!-- Languages and Tools -->
 <div align="center">
