@@ -48,8 +48,6 @@ I enjoy blending creativity with automation, and I have a Raspberry Pi where I d
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argo/argo-original.svg" height="40" alt="ArgoCD" title="ArgoCD" />
   &nbsp;&nbsp;
-  <img src="https://avatars.githubusercontent.com/u/62194708?s=200&v=4" height="40" alt="Crossplane" title="Crossplane" />
-  &nbsp;&nbsp;
   <img src="https://dapr.io/images/dapr.svg" height="40" alt="Dapr" title="Dapr" />
   &nbsp;&nbsp;
   <img src="https://cncf-branding.netlify.app/img/projects/k3s/horizontal/color/k3s-horizontal-color.svg" height="40" alt="K3s" title="K3s" />
