@@ -57,25 +57,6 @@ I enjoy blending creativity with automation, and I have a Raspberry Pi where I d
   <img src="https://doc.traefik.io/traefik/assets/img/traefik.logo.svg" height="40" alt="Traefik" title="Traefik" />
 </p>
 
-### 🛢️ Databases & Messaging
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,supabase,graphql" />
-  <br />
-  <img src="https://cdn.worldvectorlogo.com/logos/rabbitmq.svg" height="40" alt="RabbitMQ" title="RabbitMQ" />
-</p>
-
-### 🔐 Security & Secrets
-<p align="center">
-  <img src="https://www.datocms-assets.com/2885/1620155112-hashicorp-vault-icon.svg" height="40" alt="Vault" title="Vault" />
-  &nbsp;&nbsp;
-  <img src="https://external-secrets.io/img/logos/logo-icon.svg" height="40" alt="External Secrets" title="External Secrets" />
-</p>
-
-### 🧰 Tools & Platforms
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,jetbrains,postman,figma,vercel,netlify,arduino,raspberrypi" />
-</p>
-
 ---
 
 ## 📊 GitHub Statistics
