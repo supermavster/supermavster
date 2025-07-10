@@ -44,19 +44,6 @@ I enjoy blending creativity with automation, and I have a Raspberry Pi where I d
   <img src="https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare" />
 </p>
 
-### 🛠️ Advanced DevOps & Cloud Native Tools
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argo/argo-original.svg" height="40" alt="ArgoCD" title="ArgoCD" />
-  &nbsp;&nbsp;
-  <img src="https://dapr.io/images/dapr.svg" height="40" alt="Dapr" title="Dapr" />
-  &nbsp;&nbsp;
-  <img src="https://cncf-branding.netlify.app/img/projects/k3s/horizontal/color/k3s-horizontal-color.svg" height="40" alt="K3s" title="K3s" />
-  &nbsp;&nbsp;
-  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" height="40" alt="MicroK8s" title="MicroK8s" />
-  &nbsp;&nbsp;
-  <img src="https://doc.traefik.io/traefik/assets/img/traefik.logo.svg" height="40" alt="Traefik" title="Traefik" />
-</p>
-
 ---
 
 ## 📊 GitHub Statistics
