@@ -1,0 +1,156 @@
+name: Terraform Infrastructure
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'terraform/**'
+      - '.github/workflows/terraform.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'terraform/**'
+      - '.github/workflows/terraform.yml'
+  workflow_dispatch:
+
+env:
+  TF_VERSION: '1.5.0'
+  TF_WORKING_DIR: './terraform'
+
+jobs:
+  terraform:
+    name: 'Terraform'
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: read
+      pull-requests: write
+      id-token: write
+
+    defaults:
+      run:
+        shell: bash
+        working-directory: ${{ env.TF_WORKING_DIR }}
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Generate Environment File
+      run: |
+        echo "🔧 Generating .env.local from .env.template..."
+        
+        # Check if .env.template exists
+        if [ ! -f "../.env.template" ]; then
+          echo "❌ Error: .env.template file not found in repository root"
+          echo "💡 Make sure .env.template exists in the repository root directory"
+          exit 1
+        fi
+        
+        # Copy template to .env.local
+        cp ../.env.template ../.env.local
+        
+        # Validate that GITHUB_TOKEN is available
+        if [ -z "${{ secrets.GITHUB_TOKEN }}" ]; then
+          echo "❌ Error: GITHUB_TOKEN is not available"
+          exit 1
+        fi
+        
+        # Replace GitHub token placeholder with actual token
+        sed -i "s/your_github_token_here/${{ secrets.GITHUB_TOKEN }}/g" ../.env.local
+        
+        # Replace other placeholders
+        sed -i "s/\${GITHUB_TOKEN}/${{ secrets.GITHUB_TOKEN }}/g" ../.env.local
+        
+        # Verify the file was created properly
+        if [ ! -f "../.env.local" ]; then
+          echo "❌ Error: Failed to create .env.local file"
+          exit 1
+        fi
+        
+        echo "✅ Successfully generated .env.local file"
+        
+        # Show structure (without sensitive values)
+        echo "📄 Generated .env.local structure:"
+        grep -E "^[A-Z_]+" ../.env.local | sed 's/=.*/=***/' || true
+
+    - name: Setup Terraform
+      uses: hashicorp/setup-terraform@v3
+      with:
+        terraform_version: ${{ env.TF_VERSION }}
+        terraform_wrapper: false
+
+    - name: Terraform Format Check
+      id: fmt
+      run: terraform fmt -check -recursive
+      continue-on-error: true
+
+    - name: Terraform Init
+      id: init
+      run: terraform init
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Terraform Validate
+      id: validate
+      run: terraform validate -no-color
+
+    - name: Terraform Plan
+      id: plan
+      run: |
+        terraform plan -no-color -input=false \
+          -var="github_token=${{ secrets.GITHUB_TOKEN }}" \
+          -var="repository_name=${{ github.repository }}" \
+          -var="environment=${{ github.ref_name == 'main' && 'production' || 'development' }}" \
+          -out=tfplan
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Update Pull Request
+      uses: actions/github-script@v7
+      if: github.event_name == 'pull_request'
+      env:
+        PLAN: "${{ steps.plan.outputs.stdout }}"
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const output = `#### Terraform Format and Style 🖌\`${{ steps.fmt.outcome }}\`
+          #### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
+          #### Terraform Validation 🤖\`${{ steps.validate.outcome }}\`
+          #### Terraform Plan 📖\`${{ steps.plan.outcome }}\`
+
+          <details><summary>Show Plan</summary>
+
+          \`\`\`terraform
+          ${process.env.PLAN}
+          \`\`\`
+
+          </details>
+
+          *Pushed by: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
+
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: output
+          })
+
+    - name: Terraform Plan Status
+      if: steps.plan.outcome == 'failure'
+      run: exit 1
+
+    - name: Terraform Apply
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      run: |
+        terraform apply -auto-approve tfplan
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Cleanup
+      if: always()
+      run: |
+        # Clean up sensitive files
+        rm -f ../.env.local
+        rm -f tfplan
+        echo "🧹 Cleanup completed"
