@@ -43,17 +43,30 @@ jobs:
         # Check if .env.template exists
         if [ ! -f "../.env.template" ]; then
           echo "❌ Error: .env.template file not found in repository root"
+          echo "💡 Make sure .env.template exists in the repository root directory"
           exit 1
         fi
         
         # Copy template to .env.local
         cp ../.env.template ../.env.local
         
+        # Validate that GITHUB_TOKEN is available
+        if [ -z "${{ secrets.GITHUB_TOKEN }}" ]; then
+          echo "❌ Error: GITHUB_TOKEN is not available"
+          exit 1
+        fi
+        
         # Replace GitHub token placeholder with actual token
         sed -i "s/your_github_token_here/${{ secrets.GITHUB_TOKEN }}/g" ../.env.local
         
         # Replace other placeholders
         sed -i "s/\${GITHUB_TOKEN}/${{ secrets.GITHUB_TOKEN }}/g" ../.env.local
+        
+        # Verify the file was created properly
+        if [ ! -f "../.env.local" ]; then
+          echo "❌ Error: Failed to create .env.local file"
+          exit 1
+        fi
         
         echo "✅ Successfully generated .env.local file"
         
