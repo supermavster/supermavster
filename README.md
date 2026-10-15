@@ -1,6 +1,6 @@
 <!-- Animated Banner -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Miguel+%F0%9F%91%BD;Platform+Engineer;Cloud+%26+Infrastructure+Automation;Building+Reliable+Developer+Platforms" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2500&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Miguel+%F0%9F%91%BD;Senior+Platform+Engineer;DevOps+%26+SRE+Architect;Cloud-Native+Infrastructure+%26+GitOps" alt="Typing introduction" />
 </h1>
 
 <p align="center">
@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <strong>Platform Engineer focused on reliable infrastructure, automation, and developer experience.</strong>
+  <strong>Senior Platform Engineer and DevOps Architect building secure, observable, and highly available cloud platforms.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/supermavster"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://co.linkedin.com/in/miguel-angel-torres-vargas"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/miguel-angel-torres-vargas/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://supermavsters.com/"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=firefox-browser&logoColor=white" alt="Website" /></a>
 </p>
 
@@ -21,18 +21,18 @@
 
 ## 👋 About Me
 
-I'm **Miguel Ángel Torres Vargas**, a self-taught **Platform Engineer** from 🇨🇴 Colombia. I design and automate the systems that help teams ship software safely, consistently, and efficiently.
+I'm **Miguel Ángel Torres Vargas**, a **Senior Platform Engineer, DevOps Architect, and SRE** from 🇨🇴 Colombia with more than seven years of experience designing, scaling, and automating cloud-native infrastructure across **GCP and AWS**.
 
-My work sits at the intersection of software engineering and infrastructure: turning repeatable operational tasks into reliable platforms, improving delivery workflows, and making cloud-native practices accessible to development teams. I also enjoy experimenting with self-hosted infrastructure—from cloud environments to Kubernetes running on a Raspberry Pi.
+I specialize in building reliable internal platforms that help engineering teams deliver software safely and consistently. My work focuses on multi-region Kubernetes, GitOps, Infrastructure as Code, progressive delivery, zero-trust security, observability, and reducing operational overhead without compromising availability.
 
-- ⚙️ Building with **Infrastructure as Code, GitOps, CI/CD, and automation**.
-- ☁️ Designing and operating **cloud-native platforms and Kubernetes environments**.
-- 🔭 Improving **observability, reliability, security, and developer experience**.
-- 🧰 Exploring practical platform engineering patterns through hands-on projects.
-- 📚 Continuously learning English, data science, algorithms, and distributed systems.
-- 🐾 Catman: proud companion of two cats and two dogs.
-- 💬 Have an idea or want to collaborate? Open an [issue](https://github.com/supermavster/supermavster/issues) in this repository.
-- 🌐 More projects and notes are available at [supermavsters.com](https://supermavsters.com/).
+- ☁️ Designing and operating multi-cloud platforms across **GCP and AWS**.
+- ☸️ Managing production Kubernetes fleets with **GKE, EKS, MicroK8s, and K3s**.
+- 🏗️ Standardizing infrastructure with **Terraform, Helm, Kustomize, Crossplane, and Config Connector**.
+- 🔁 Implementing GitOps and progressive delivery with **Argo CD, ApplicationSets, and Argo Rollouts**.
+- 🔐 Building secure secret-management workflows with **Vault, KMS, SOPS, and External Secrets Operator**.
+- 📈 Improving reliability through **observability, APM, tracing, incident response, and disaster recovery**.
+- 🚀 Automating delivery with **GitHub Actions, GitLab CI/CD, and Bitbucket Pipelines**.
+- 🏠 Experimenting with self-hosted infrastructure and Kubernetes on Raspberry Pi.
 
 > **Platform engineering is about reducing cognitive load so engineers can focus on delivering value.**
 
@@ -40,33 +40,45 @@ My work sits at the intersection of software engineering and infrastructure: tur
 
 ## 🛠️ Platform Engineering Toolkit
 
-### Software Engineering
+### Cloud & Infrastructure
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,go,php,ruby,bash,html,css" alt="Programming languages and scripting tools" />
+  <img src="https://skillicons.dev/icons?i=gcp,aws,digitalocean,terraform,kubernetes,docker,linux,nginx" alt="Cloud and infrastructure technologies" />
 </p>
 
-### Applications, Frameworks & APIs
+### Kubernetes & Delivery
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxt,tailwind,nestjs,laravel,django,flask,express,jquery,bootstrap" alt="Frameworks and libraries" />
+  <img src="https://skillicons.dev/icons?i=helm,ansible,githubactions,gitlab,git,github" alt="Kubernetes and delivery technologies" />
 </p>
 
-### Cloud, Infrastructure & Delivery
+### Development & Automation
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,ansible,nginx,linux,git,github,gitlab,githubactions,vagrant" alt="Infrastructure and delivery tools" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare" alt="Cloud platforms" />
+  <img src="https://skillicons.dev/icons?i=go,python,ts,js,php,bash" alt="Programming languages and automation tools" />
 </p>
 
-### Engineering Practices
+### Security, Observability & Data
 
-- **Infrastructure as Code:** Terraform and configuration automation
-- **Container platforms:** Docker and Kubernetes
-- **Delivery:** CI/CD, GitHub Actions, GitLab CI, and GitOps workflows
-- **Platform operations:** Linux, networking, reverse proxies, and self-hosted services
-- **Reliability:** Automation, observability, secure defaults, and repeatable environments
+- **GitOps and delivery:** Argo CD, ApplicationSets, Argo Rollouts, GitHub Actions, GitLab CI/CD, Bitbucket Pipelines
+- **Infrastructure as Code:** Terraform, Helm, Kustomize, CUE, Crossplane, Config Connector
+- **Security and secrets:** HashiCorp Vault, Cloud KMS, Workload Identity Federation, SOPS, External Secrets Operator, Kubernetes RBAC
+- **Observability:** Datadog APM, Prometheus, Grafana, ELK, Thanos, New Relic, Loki, PagerDuty
+- **Data and streaming:** Apache Kafka, Strimzi, KRaft, Debezium CDC, PostgreSQL, Redis, Elasticsearch, MySQL
+- **Connectivity:** AWS Transit Gateway, Direct Connect, VPN, and hybrid cloud networking
+
+---
+
+## 🚀 What I Build
+
+- Multi-region Kubernetes platforms with high-availability and blast-radius controls
+- Reusable Terraform modules for networking, compute, data, and security
+- GitOps workflows that bootstrap and operate environments from a single source of truth
+- Secure, reusable CI/CD pipelines for PHP, Node.js, Python, Go, and Flutter services
+- Progressive delivery strategies with automated validation and rollback
+- Streaming and CDC platforms using Kafka, Strimzi, and Debezium
+- Observability platforms that improve system visibility and reduce MTTR
+- Reliable cloud connectivity for hybrid and mission-critical workloads
 
 ---
 
@@ -83,13 +95,19 @@ My work sits at the intersection of software engineering and infrastructure: tur
 
 ---
 
-## 🏆 GitHub Profile
+## 🎓 Certifications & Education
 
-<p align="center">
-  <a href="https://github.com/supermavster">
-    <img src="https://img.shields.io/badge/View_my_GitHub_profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="View my GitHub profile" />
-  </a>
-</p>
+- **B.Sc. Systems Engineering** — Universidad de Boyacá
+- **Digital Transformation** — MIT Professional Education
+- **Google Cloud Certified: Associate Cloud Engineer**
+- **AWS Certified: Solutions Architect – Associate**
+- **HashiCorp Certified: Terraform Associate**
+- **Certified Kubernetes Application Developer (CKAD)**
+
+## 🌎 Languages
+
+- **Spanish:** Native
+- **English:** Full professional proficiency — C1
 
 ---
 
@@ -97,8 +115,9 @@ My work sits at the intersection of software engineering and infrastructure: tur
 
 <p align="center">
   <a href="https://github.com/supermavster"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://co.linkedin.com/in/miguel-angel-torres-vargas"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="https://www.linkedin.com/in/miguel-angel-torres-vargas/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
   <a href="https://supermavsters.com/"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=firefox-browser&logoColor=white" alt="Personal website" /></a>
+  <a href="https://github.com/supermavster/supermavster/issues"><img src="https://img.shields.io/badge/Contact-Open%20an%20issue-2ea44f?style=flat&logo=github" alt="Open an issue" /></a>
 </p>
 
 <p align="center">
