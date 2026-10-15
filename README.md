@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <img src="./assets/supermavster.gif" width="250px" style="border-radius: 10px"/>
+  <img src="./assets/supermavster.gif" width="250px" style="border-radius: 10px" alt="Supermavster animated avatar" />
 </p>
 
 <p align="center">
@@ -13,8 +13,8 @@
 
 <p align="center">
   <a href="https://github.com/supermavster"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/miguel-angel-torres-vargas/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://supermavsters.com"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=firefox-browser&logoColor=white" alt="Website" /></a>
+  <a href="https://co.linkedin.com/in/miguel-angel-torres-vargas"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://supermavsters.com/"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=firefox-browser&logoColor=white" alt="Website" /></a>
 </p>
 
 ---
@@ -31,8 +31,8 @@ My work sits at the intersection of software engineering and infrastructure: tur
 - 🧰 Exploring practical platform engineering patterns through hands-on projects.
 - 📚 Continuously learning English, data science, algorithms, and distributed systems.
 - 🐾 Catman: proud companion of two cats and two dogs.
-- 💬 Have an idea or want to collaborate? Start a conversation in [GitHub Discussions](https://github.com/supermavster/supermavster/discussions).
-- 🌐 More projects and notes are available at [supermavsters.com](https://supermavsters.com).
+- 💬 Have an idea or want to collaborate? Open an [issue](https://github.com/supermavster/supermavster/issues) in this repository.
+- 🌐 More projects and notes are available at [supermavsters.com](https://supermavsters.com/).
 
 > **Platform engineering is about reducing cognitive load so engineers can focus on delivering value.**
 
@@ -95,8 +95,8 @@ My work sits at the intersection of software engineering and infrastructure: tur
 
 <p align="center">
   <a href="https://github.com/supermavster"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://www.linkedin.com/in/miguel-angel-torres-vargas/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
-  <a href="https://supermavsters.com"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=firefox-browser&logoColor=white" alt="Personal website" /></a>
+  <a href="https://co.linkedin.com/in/miguel-angel-torres-vargas"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="https://supermavsters.com/"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=firefox-browser&logoColor=white" alt="Personal website" /></a>
 </p>
 
 <p align="center">
