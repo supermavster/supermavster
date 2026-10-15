@@ -83,10 +83,12 @@ My work sits at the intersection of software engineering and infrastructure: tur
 
 ---
 
-## 🏆 GitHub Trophy
+## 🏆 GitHub Profile
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=supermavster&theme=nord&no-bg=true&no-frame=true&margin-w=15&margin-h=15" alt="GitHub trophies" />
+  <a href="https://github.com/supermavster">
+    <img src="https://img.shields.io/badge/View_my_GitHub_profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="View my GitHub profile" />
+  </a>
 </p>
 
 ---
